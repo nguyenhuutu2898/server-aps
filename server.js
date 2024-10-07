@@ -5,7 +5,7 @@ let app = express();
 const cors = require("cors");
 app.use(cors());
 
-app.use(express.static("wwwroot"));
+// app.use(express.static("wwwroot"));
 app.use(require("./routes/auth.js"));
 app.use(require("./routes/models.js"));
 app.listen(PORT, function () {
