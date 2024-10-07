@@ -19,7 +19,7 @@ jobs:
         with:
           render-token: rnd_zoiJPl72yKqfKfUWhjQAT2brLc9L
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          service-id: srv-cs1cei0gph6c73ajh450?key=qtUQ2-I9b7I
+          service-id: cs1cei0gph6c73ajh450?key=qtUQ2-I9b7I
           retries: 20
           wait: 16000
           sleep: 30000
